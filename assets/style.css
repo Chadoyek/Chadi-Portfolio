@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: indianred;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.headernav{
+    display: flex;
+    }
+
+.headernav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    padding-top: 10px;
+
+}
+.subheader img{
+    width: 100%;
+    max-height: 50px;
+}
+
+main h1 {
+    color: indianred;
+}
+
+
+body {
+    background-color:azure;
+}

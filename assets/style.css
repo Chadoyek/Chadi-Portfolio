@@ -36,8 +36,14 @@ body {
     background-color:azure;
 }
 
-.Horiseon {
-    width: 500px;
-    height: 300px;
+.Work{
+    display: flex;
+    justify-content: center;
 }
 
+.MainWork img{
+    max-width: 400px;
+    max-height: 400px;
+    align-items: center;
+
+}

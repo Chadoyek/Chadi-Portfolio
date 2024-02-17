@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --mySpacing: 20px
+}
 
 header{
     background-color: indianred;
@@ -36,14 +39,70 @@ body {
     background-color:azure;
 }
 
-.Work{
+.Work {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
-.MainWork img{
-    max-width: 400px;
-    max-height: 400px;
-    align-items: center;
+.MainWork img {
+    width: 100%;
+ }
+ 
+ .MainWork img:hover{
+    scale: 0.985;
+    border: 5px solid indianred;
 
+
+ }
+
+
+.SecondaryWork {
+    margin-top: var(--mySpacing);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+    .secondaryImageWrapper {
+        width: calc(50% - (var(--mySpacing) / 2));
+        box-sizing: border-box;
+        margin-bottom: var(--mySpacing);
+      }
+      
+      .secondaryImage {
+        box-sizing: border-box;
+        height: 30vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 5px solid indianred;
+      }
+      .secondaryImage:hover{
+        scale: 1.1;
+        border: 6px solid indianred;
+      }
+      
+#calculator{
+    background-image: url("./images/calculator.jpeg");
+    
 }
+#snake{
+    background-image: url("./images/snake.jpeg");
+}
+#dice{
+    background-image: url("./images/Dice.jpeg");
+}
+#race{
+    background-image: url('./images/race.jpeg');
+}
+
+
+
+
+
+
+
+
+
+

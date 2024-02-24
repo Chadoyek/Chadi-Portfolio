@@ -1,7 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-}
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+ 
+
 :root{
     --mySpacing: 20px;
     --myColor: #9E00FF;
@@ -43,6 +49,9 @@ main h1 {
     color: var(--myColor);
     margin-top: 20px;
     white-space: wrap; 
+    width: 100px;
+    flex-shrink: 0;
+    margin-left: 10px;
 }
 
 
@@ -153,6 +162,7 @@ body {
     margin-top: 20px;
     border-left: 2px solid black;
     padding-left: 35px;
+    margin-right: 30px;
 }
 
 
@@ -188,4 +198,13 @@ h3{
     opacity: 0.8;
     left: 10px;
 
+}
+
+.container2 #about {
+    color: red;
+    
+}
+
+.container2 #contact {
+    color: blue;
 }
